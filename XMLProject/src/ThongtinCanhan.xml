@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ThongtinCaNhan>
+    <CaNhan>1
+        <Maso>01</Maso>
+        <Name>Nero Saro</Name>
+        <SoThich>Programming, Games, Baroque</SoThich>
+        <NgonnguLapTrinh>C, Java, C#, Python</NgonnguLapTrinh>
+        <ThietbiHoctap>Latop, Smart Phone</ThietbiHoctap>
+    </CaNhan>
+    
+    <CaNhan>2
+        <Maso>02</Maso>
+        <Name>Oras Oren</Name>
+        <SoThich>Programming, Football, Fishing</SoThich>
+        <NgonnguLapTrinh>C++, Ruby, Swift</NgonnguLapTrinh>
+        <ThietbiHoctap>PC</ThietbiHoctap>
+    </CaNhan>
+</ThongtinCaNhan>

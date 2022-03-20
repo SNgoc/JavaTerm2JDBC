@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Numbers Day_so = "22, 13, -4, 9 ,5, 0">
+    <Number>22
+        <Num>22</Num>
+        <Ten>Hai mươi hai</Ten>
+    </Number>
+    <Number>13
+        <Num>13</Num>
+        <Ten>Mười ba</Ten>
+    </Number>
+    <Number>-4
+        <Num>(-4)</Num>
+        <Ten>Trừ bốn</Ten>
+    </Number>
+    <Number>9
+        <Num>9</Num>
+        <Ten>Chín</Ten>
+    </Number>
+    <Number>5
+        <Num>5</Num>
+        <Ten>Năm</Ten>
+    </Number>
+    <Number>0
+        <Num>0</Num>
+        <Ten>Không</Ten>
+    </Number>
+</Numbers>

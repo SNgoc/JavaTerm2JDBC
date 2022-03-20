@@ -1,0 +1,3 @@
+L13 - compaq - HP
+L14 - ibm - Levono
+L15 - Asus - Asus

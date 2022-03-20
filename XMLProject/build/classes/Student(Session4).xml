@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Student(Session5).css" type="text/css"?>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation= "Student(Session4).xsd">
+    <FirstName>Hung</FirstName>
+    <MiddleName>Tran</MiddleName>
+    <LastName>The</LastName>
+    <Address>
+        <Street>Baker</Street>
+        <District>London</District>
+    </Address>
+    <BirthDay id = "SV01">
+        <Day>31</Day>
+        <Month>3</Month>
+        <Year>1884</Year>
+    </BirthDay>
+</Student>

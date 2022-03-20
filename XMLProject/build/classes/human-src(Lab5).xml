@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?xml-stylesheet type = "text/xsl" href = "human-src(Lab5).xsl"?>
+<human-src>
+    <showroom>
+        <address>221B, Baker Street</address>
+        <pay>$3000</pay>
+        <batch>
+            <year>2010</year>
+            <allowance>$5</allowance>
+            <employee>
+                <employee:name>Maria</employee:name>
+                <BirthYear>1995</BirthYear>
+                
+                <employee:name>Jane</employee:name>
+                <BirthYear>1999</BirthYear>
+            </employee>
+        </batch>
+        
+        <batch>
+            <year>2015</year>
+            <allowance>$3</allowance>
+            <employee>
+                <employee:name>Rose</employee:name>
+                <BirthYear>1996</BirthYear>
+                
+                <employee:name>Anna</employee:name>
+                <BirthYear>1998</BirthYear>
+            </employee>
+        </batch>
+    </showroom>
+    
+    <showroom>
+        <address>123C, LA Street</address>
+        <pay>$5000</pay>
+        <batch>
+            <year>2013</year>
+            <allowance>$4</allowance>
+            <employee>
+                <employee:name>Mary</employee:name>
+                <BirthYear>1995</BirthYear>
+                
+                <employee:name>Jill</employee:name>
+                <BirthYear>1993</BirthYear>
+            </employee>
+        </batch>
+        
+        <batch>
+            <year>2017</year>
+            <allowance>$2</allowance>
+            <employee>
+                <employee:name>Risa</employee:name>
+                <BirthYear>1997</BirthYear>
+                
+                <employee:name>Ahri</employee:name>
+                <BirthYear>1994</BirthYear>
+            </employee>
+        </batch>
+    </showroom>
+    
+</human-src>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<tv-list
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='tv(lab4).xsd'>
+    <tv>
+        <name>LG 32 inches</name>
+        <manufacturer>LG</manufacturer>
+        <price>350.5</price>
+        <guarantee>24</guarantee>
+    </tv>
+</tv-list>

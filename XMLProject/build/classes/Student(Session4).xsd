@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xs:element name="Student">
+        <xs:complexType>
+        <xs:sequence>
+        <xs:element name="FirstName" type="k_First"/>
+        <xs:element name="MiddleName" type="xs:string"/>
+        <xs:element name="LastName" type="xs:string"/>
+        <xs:element name =  "Address" type = "k_Address"/>
+        <xs:element name =  "BirthDay" type = "k_Birth"/>
+        </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+        
+    <xs:complexType name = "k_Address">
+            <xs:sequence>
+                <xs:element name = "Street" type="xs:string"></xs:element>
+                <xs:element name = "District" type="xs:string"></xs:element>
+            </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name = "k_Birth">
+            <xs:sequence>
+                <xs:element name = "Day" type="xs:integer"></xs:element>
+                <xs:element name = "Month" type="xs:integer"></xs:element>
+                <xs:element name = "Year" type="xs:integer"></xs:element>
+            </xs:sequence>
+            <xs:attribute name = "id" type = "xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:simpleType name="k_First">
+        <xs:restriction base = "xs:string">
+            <xs:pattern value="[a-zA-Z]{2,20}"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

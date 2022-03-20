@@ -1,0 +1,4 @@
+Id:D14 	Name:dfsvfb 	Specialization:CC 	availHours:24
+Id:D14     	Name:afsv     	Specialization:HS     	availHours:16
+Id:D15        	Name:wdasvf        	Specialization:CC        	availHours:15
+Id:D17  	Name:dads  	Specialization:CC  	availHours:12

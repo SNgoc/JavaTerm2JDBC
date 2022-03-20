@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?xml-stylesheet type = "text/xsl" href = "Session6_2.xsl"?>
+<Employee>
+    <Designer>
+        <Name>David</Name>
+        <Doj>18/11/1973</Doj>
+        <Address>221B-Baker Street</Address>
+        <Phone>1234-5678-900</Phone>
+    </Designer>
+    <Designer>
+        <Name>John</Name>
+        <Doj>18/02/1986</Doj>
+        <Address>123K-Mary Street</Address>
+        <Phone>1245-2367-876</Phone>
+    </Designer>
+</Employee>

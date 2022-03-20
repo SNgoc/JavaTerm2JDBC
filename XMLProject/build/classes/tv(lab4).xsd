@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="tv-list">
+        <xs:complexType>
+            <xs:sequence minOccurs = "0" maxOccurs = "1000">
+                <!--Một tv có nhiều thẻ con => thẻ phức tạp-->
+                <xs:element name = "tv">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Tên tv là 1 chuỗi độ dài >= 2 => thẻ đơn -->
+                            <xs:element name = "name">
+                                <xs:simpleType>
+                                    <xs:restriction base = "xs:string">
+                                        <xs:minLength value="2"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            
+                            <xs:element name = "manufacturer" type = "xs:string"/>
+                            <xs:element name = "price" type = "xs:string"/>
+                            
+                            <!-- Số tháng bảo hành: số integer nhỏ: [0,37] -->
+                            <xs:element name = "guarantee">
+                                <xs:simpleType>
+                                    <xs:restriction base = "xs:short">
+                                        <xs:minExclusive value="0"/>
+                                        <xs:maxExclusive value="37"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>                  
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

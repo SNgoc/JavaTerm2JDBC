@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<School>
+    <Khoi>10
+        <Lop>
+            <TenLop>10A1</TenLop>
+            <SoHS>31</SoHS>
+            <DanhsachHS>
+                <MaHS>10A11
+                    <TenHS>A</TenHS>
+                </MaHS>
+                <MaHS>10A12
+                    <TenHS>B</TenHS>
+                </MaHS>
+                <MaHS>10A13
+                    <TenHS>C</TenHS>
+                </MaHS>
+            </DanhsachHS>
+        </Lop>
+        
+        <Lop>
+            <TenLop>10A2</TenLop>
+            <SoHS>33</SoHS>
+            <DanhsachHS>
+                <MaHS>10A21
+                    <TenHS>A</TenHS>
+                </MaHS>
+                <MaHS>10A22
+                    <TenHS>B</TenHS>
+                </MaHS>
+                <MaHS>10A23
+                    <TenHS>C</TenHS>
+                </MaHS>
+            </DanhsachHS>
+        </Lop>
+        
+        <Lop>
+            <TenLop>10A3</TenLop>
+            <SoHS>30</SoHS>
+            <DanhsachHS>
+                <MaHS>10A31
+                    <TenHS>A</TenHS>
+                </MaHS>
+                <MaHS>10A32
+                    <TenHS>B</TenHS>
+                </MaHS>
+                <MaHS>10A33
+                    <TenHS>C</TenHS>
+                </MaHS>
+            </DanhsachHS>
+        </Lop>
+    </Khoi>
+    
+    <Khoi>11
+        <Lop>
+            <TenLop>11A1</TenLop>
+            <SoHS>32</SoHS>
+            <DanhsachHS>
+                <MaHS>11A11
+                    <TenHS>D</TenHS>
+                </MaHS>
+                <MaHS>11A12
+                    <TenHS>E</TenHS>
+                </MaHS>
+                <MaHS>11A13
+                    <TenHS>F</TenHS>
+                </MaHS>
+            </DanhsachHS>
+        </Lop>
+        
+        <Lop>
+            <TenLop>11A2</TenLop>
+            <SoHS>35</SoHS>
+            <DanhsachHS>
+                <MaHS>11A21
+                    <TenHS>D</TenHS>
+                </MaHS>
+                <MaHS>11A22
+                    <TenHS>E</TenHS>
+                </MaHS>
+                <MaHS>11A23
+                    <TenHS>F</TenHS>
+                </MaHS>
+            </DanhsachHS>
+        </Lop>
+        
+        <Lop>
+            <TenLop>11A3</TenLop>
+            <SoHS>33</SoHS>
+            <DanhsachHS>
+                <MaHS>11A31
+                    <TenHS>D</TenHS>
+                </MaHS>
+                <MaHS>11A32
+                    <TenHS>E</TenHS>
+                </MaHS>
+                <MaHS>11A33
+                    <TenHS>F</TenHS>
+                </MaHS>
+            </DanhsachHS>
+        </Lop>
+    </Khoi>
+</School>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/collection(lab3Test).dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE collection SYSTEM "collection(lab3Test).dtd">
+
+    <collection>
+    ...
+    </collection>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT collection (description|recipe)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT description (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT recipe (title|ingredient|preparation|comment|nutrition)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT title (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ingredient (preparation)*>
+<!ATTLIST ingredient
+    name CDATA #IMPLIED
+    amount CDATA #IMPLIED
+    unit CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT preparation (step)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT step (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT comment (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nutrition EMPTY>
+<!ATTLIST nutrition
+    protein CDATA #IMPLIED
+    carbohydrates CDATA #IMPLIED
+    fat CDATA #IMPLIED
+    calories CDATA #IMPLIED
+    alcohol CDATA #IMPLIED
+  >

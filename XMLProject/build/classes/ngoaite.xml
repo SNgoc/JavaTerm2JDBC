@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<BANG_TY_GIA>
+    <Ngay>14/6/2020
+        <NGOAI_TE>
+            <Ten>Đô la Úc</Ten>
+            <Ky_Hieu>AUSD</Ky_Hieu>
+            <Mua_tien_mat>16120</Mua_tien_mat>
+            <Mua_chuyen_khoan>16125</Mua_chuyen_khoan>
+            <Ban>16250</Ban>
+        </NGOAI_TE>
+
+        <NGOAI_TE>
+            <Ten>Đô la Mỹ</Ten>
+            <Ky_Hieu>USD</Ky_Hieu>
+            <Mua_tien_mat>23105</Mua_tien_mat>
+            <Mua_chuyen_khoan>23200</Mua_chuyen_khoan>
+            <Ban>23300</Ban>
+        </NGOAI_TE>
+
+        <NGOAI_TE>
+            <Ten>Bảng Anh</Ten>
+            <Ky_Hieu>GBP</Ky_Hieu>
+            <Mua_tien_mat>31604</Mua_tien_mat>
+            <Mua_chuyen_khoan>31699</Mua_chuyen_khoan>
+            <Ban>31910</Ban>
+        </NGOAI_TE>
+
+        <NGOAI_TE>
+            <Ten>Đô la HongKong</Ten>
+            <Ky_Hieu>HKD</Ky_Hieu>
+            <Mua_tien_mat>2030</Mua_tien_mat>
+            <Mua_chuyen_khoan>2054</Mua_chuyen_khoan>
+            <Ban>2074</Ban>
+        </NGOAI_TE>
+    </Ngay>
+    
+
+</BANG_TY_GIA>

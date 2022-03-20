@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT Mobile (Company, Model, Price,  Accessories)> <!-- (root là mobile, bên trong là các element con)-->
+<!ELEMENT Company (#PCDATA)> <!--(#PCDATA tượng trưng cho kiểu dữ liệu string hoặc kiểu khác)-->
+<!ELEMENT Model (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Accessories (#PCDATA)>
+<!ATTLIST Model Type CDATA #REQUIRED>
+<!ENTITY HP "Head Phones">
+<!ENTITY CH "Charger">
+<!ENTITY SK "Starters Kit">
+
